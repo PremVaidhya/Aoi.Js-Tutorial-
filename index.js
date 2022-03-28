@@ -8,7 +8,4 @@ const aoijs = require('aoi.js');
 
 bot.onMessage() //enables bot to see messages (required for executing Commands)
 
-bot.command({
-  name: "ping", //command name
-  code: `My Ping Is \`$ping ms\` ` //code to be executed when this command is called 
- });
+
